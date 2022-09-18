@@ -17,6 +17,11 @@ Project to test Quarto for slide shows
 
 - https://quarto.org/docs/presentations/
 - https://quarto.org/docs/reference/formats/presentations/revealjs.html
+- https://github.com/quarto-dev/quarto-actions/blob/main/examples/example-01-basics.md
 - https://github.com/quarto-dev/quarto-web/blob/main/docs/presentations/revealjs/demo/index.qmd
 - https://quarto.org/docs/publishing/github-pages.html
 
+## Learnings
+
+- You need to **run `quarto publish gh-pages` once**, see [here](https://github.com/quarto-dev/quarto-actions/blob/main/examples/example-01-basics.md).
+  Seems to be doing quite a lot...
