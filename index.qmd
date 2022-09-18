@@ -1,35 +1,92 @@
 ---
-title: "Habits"
-author: "John Doe"
-format: revealjs
----
-
-# In the morning
-
----
-
-## Getting up
-
-- Turn off alarm
-- Get out of bed
+format:
+  revealjs:
+    footer: "footers as specified in font matter"
+    logo: https://placeholder.pics/svg/60/9F0FFF
+    incremental: false  # https://quarto.org/docs/presentations/revealjs/#incremental-lists
+    theme: simple  # https://quarto.org/docs/presentations/revealjs/#themes
+    # reference-location: document  # https://quarto.org/docs/presentations/revealjs/#asides-footnotes
 
 ---
 
-## Breakfast
+# Slides using Quarto
 
-- Eat eggs
-- Drink coffee
+This is the first slide
 
 ---
 
-# In the evening
+## Second slide H2 with list
 
-## Dinner
+- Foo
+- Bar
 
-- Eat spaghetti
-- Drink wine
+---
 
-## Going to sleep
+## Slide with incremental list
 
-- Get in bed
-- Count sheep
+::: {.incremental}
+- Foo
+- Bar
+:::
+
+---
+
+## Slide with a pause (the three dots)
+
+content before the pause
+
+. . .
+
+content after the pause
+
+---
+
+## Multiple columns
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Left column
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+
+::::
+
+---
+
+## Footnotes (Asides & Footnotes)
+
+- Green ^[A footnote]
+- Brown
+- Purple
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+
+---
+
+## Tabsets
+
+::: {.panel-tabset}
+
+### Tab A
+
+Content for `Tab A`
+
+### Tab B
+
+Content for `Tab B`
+
+:::
+
+---
+
+## Slide Title {background-color="aquamarine"}
+
+Here we set the background to "aquamarine"
+
+(Makes the logo disappear ;)
