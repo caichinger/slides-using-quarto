@@ -9,8 +9,7 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.1.251">
 
-  <meta name="author" content="John Doe">
-  <title>Habits</title>
+  <title>index</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -323,55 +322,80 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="center">
-  <h1 class="title">Habits</h1>
-  <p class="author">John Doe</p>
-</section>
 
 <section>
-<section id="in-the-morning" class="title-slide slide level1 center">
-<h1>In the morning</h1>
-
+<section id="slides-using-quarto" class="title-slide slide level1 center">
+<h1>Slides using Quarto</h1>
+<p>This is the first slide</p>
 </section>
-<section id="getting-up" class="slide level2">
-<h2>Getting up</h2>
+<section id="second-slide-h2-with-list" class="slide level2">
+<h2>Second slide H2 with list</h2>
 <ul>
-<li>Turn off alarm</li>
-<li>Get out of bed</li>
+<li>Foo</li>
+<li>Bar</li>
 </ul>
 </section>
-<section id="breakfast" class="slide level2">
-<h2>Breakfast</h2>
+<section id="slide-with-incremental-list" class="slide level2">
+<h2>Slide with incremental list</h2>
+<div>
 <ul>
-<li>Eat eggs</li>
-<li>Drink coffee</li>
+<li class="fragment">Foo</li>
+<li class="fragment">Bar</li>
 </ul>
+</div>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="in-the-evening" class="title-slide slide level1 center">
-<h1>In the evening</h1>
-
+<section id="slide-with-a-pause-the-three-dots" class="slide level2">
+<h2>Slide with a pause (the three dots)</h2>
+<p>content before the pause</p>
+<div class="fragment">
+<p>content after the pause</p>
+</div>
 </section>
-<section id="dinner" class="slide level2">
-<h2>Dinner</h2>
+<section id="multiple-columns" class="slide level2">
+<h2>Multiple columns</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>Left column</p>
+</div><div class="column" style="width:60%;">
+<p>Right column</p>
+</div>
+</div>
+</section>
+<section id="footnotes-asides-footnotes" class="slide level2">
+<h2>Footnotes (Asides &amp; Footnotes)</h2>
 <ul>
-<li>Eat spaghetti</li>
-<li>Drink wine</li>
+<li>Green <sup>1</sup></li>
+<li>Brown</li>
+<li>Purple</li>
 </ul>
-</section>
-<section id="going-to-sleep" class="slide level2">
-<h2>Going to sleep</h2>
-<ul>
-<li>Get in bed</li>
-<li>Count sheep</li>
-</ul>
-<div class="footer footer-default">
 
+<aside><div>
+<p>Some additional commentary of more peripheral interest.</p>
+</div><ol class="aside-footnotes"><li id="fn1"><p>A footnote</p></li></ol></aside></section>
+<section id="tabsets" class="slide level2">
+<h2>Tabsets</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Tab A</a></li><li><a href="#tabset-1-2">Tab B</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p>Content for <code>Tab A</code></p>
+</div>
+<div id="tabset-1-2">
+<p>Content for <code>Tab B</code></p>
+</div>
+</div>
+</div>
+</section>
+<section id="slide-title" class="slide level2" data-background-color="aquamarine">
+<h2>Slide Title</h2>
+<p>Here we set the background to “aquamarine”</p>
+<p>(Makes the logo disappear ;)</p>
+
+<img src="https://placeholder.pics/svg/60/9F0FFF" class="slide-logo r-stretch"><div class="footer footer-default">
+<p>footers as specified in font matter</p>
 </div>
 </section></section>
+
     </div>
   </div>
 
